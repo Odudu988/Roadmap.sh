@@ -1,7 +1,4 @@
-# Front end projects 
+# Front end projects Solutions 
 This repository contains various frontend projects assigned by roadmap.sh 
-# submission checklist 
-hsnsnd
-jsksnd
-hsjxkx
-jsjsk
+# Project solutions 
+# 01 single page cv/ index.html
