@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SEO Meta Tags-->
+    <meta name="description" content="HTML only website">
+    <meta name="keywords" content="Basic website, Frontend Developer, HTML, CSS, Javascript">
+    <meta name="author" content="Ekwo Odudu">
+
+    <title>Contacts Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header section-->
+    <header>
+        <!--Navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="project.htm">Projects</a></li>
+                <li><a href="article.htm">Article</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Contacts form-->
+        <section>
+            <h1>Contact Me</h1>
+            <form action="submit_form.php" method="post">
+              <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="username" required>
+              </div>
+              <br>
+              <div>
+                   <label for="p-number">Telephone Number:</label>
+                   <input type="tel" id="p-number" name="usernumber" required>
+              </div>
+              <br>
+              <div>
+                  <label for="name">Email address:</label>
+                  <input type="text" id="name" name="username" required>
+              </div>
+              <br>
+              <div>
+                  <label for="name">Message:</label>
+                  <input type="text" id="name" name="username" required>
+              </div>
+              <br>
+              <div>
+                 <button type="submit">Send Message</button>
+                 <br>
+                 <br>
+                 <button type="reset">Cancel</button>
+              </div>
+           </form>
+        </section>
+    </main>
+    
+    <!--Footer section-->
+    <footer>
+        <p>&copy; all right reserved 2025</p>
+    </footer>
+</body>
+</html>
